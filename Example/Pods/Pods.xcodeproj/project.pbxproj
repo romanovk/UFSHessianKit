@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CB8D326EE95125966ED0DC1256794C /* UFSHessianKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FC7A58A33B1D3665DBD5669CE02FD9 /* UFSHessianKit-dummy.m */; };
+		20EC256EEC6584896E15B9F3D07758BB /* Pods-UFSHessianKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 511977BF37BBAA37F7D5A302D8007B52 /* Pods-UFSHessianKit_Tests-dummy.m */; };
+		271C7BB71D3E603200A9CCC8 /* CWDistantHessianObject+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 271C7BA21D3E603200A9CCC8 /* CWDistantHessianObject+Private.m */; };
+		271C7BB81D3E603200A9CCC8 /* CWDistantHessianObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 271C7BA31D3E603200A9CCC8 /* CWDistantHessianObject.h */; };
+		271C7BB91D3E603200A9CCC8 /* CWDistantHessianObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 271C7BA41D3E603200A9CCC8 /* CWDistantHessianObject.m */; };
+		271C7BBA1D3E603200A9CCC8 /* CWDistantHessianObject+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 271C7BA51D3E603200A9CCC8 /* CWDistantHessianObject+Private.h */; };
+		271C7BBB1D3E603200A9CCC8 /* CWHessianArchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 271C7BA61D3E603200A9CCC8 /* CWHessianArchiver.h */; };
+		271C7BBC1D3E603200A9CCC8 /* CWHessianArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 271C7BA71D3E603200A9CCC8 /* CWHessianArchiver.m */; };
+		271C7BBD1D3E603200A9CCC8 /* CWHessianArchiver+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 271C7BA81D3E603200A9CCC8 /* CWHessianArchiver+Private.h */; };
+		271C7BBE1D3E603200A9CCC8 /* CWHessianArchiver+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 271C7BA91D3E603200A9CCC8 /* CWHessianArchiver+Private.m */; };
+		271C7BBF1D3E603200A9CCC8 /* CWHessianCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 271C7BAA1D3E603200A9CCC8 /* CWHessianCoder.h */; };
+		271C7BC01D3E603200A9CCC8 /* CWHessianCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 271C7BAB1D3E603200A9CCC8 /* CWHessianCoder.m */; };
+		271C7BC11D3E603200A9CCC8 /* CWHessianConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 271C7BAC1D3E603200A9CCC8 /* CWHessianConnection.h */; };
+		271C7BC21D3E603200A9CCC8 /* CWHessianConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 271C7BAD1D3E603200A9CCC8 /* CWHessianConnection.m */; };
+		271C7BC31D3E603200A9CCC8 /* CWHessianUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 271C7BAE1D3E603200A9CCC8 /* CWHessianUnarchiver.m */; };
+		271C7BC41D3E603200A9CCC8 /* CWHessianUnarchiver+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 271C7BAF1D3E603200A9CCC8 /* CWHessianUnarchiver+Private.m */; };
+		271C7BC51D3E603200A9CCC8 /* CWValueObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 271C7BB01D3E603200A9CCC8 /* CWValueObject.h */; };
+		271C7BC61D3E603200A9CCC8 /* CWValueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 271C7BB11D3E603200A9CCC8 /* CWValueObject.m */; };
+		271C7BC71D3E603200A9CCC8 /* CWValueObject+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 271C7BB21D3E603200A9CCC8 /* CWValueObject+Private.h */; };
+		271C7BC81D3E603200A9CCC8 /* CWValueObject+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 271C7BB31D3E603200A9CCC8 /* CWValueObject+Private.m */; };
+		271C7BC91D3E603200A9CCC8 /* HessianKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 271C7BB41D3E603200A9CCC8 /* HessianKit.h */; };
+		271C7BCA1D3E603200A9CCC8 /* NSData+ReadableDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 271C7BB51D3E603200A9CCC8 /* NSData+ReadableDescription.h */; };
+		271C7BCB1D3E603200A9CCC8 /* NSData+ReadableDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 271C7BB61D3E603200A9CCC8 /* NSData+ReadableDescription.m */; };
+		323943D05852655665C7BA371CA28111 /* Pods-UFSHessianKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B713F4924968423EC94F2ACD4999D659 /* Pods-UFSHessianKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48EBAFA116A0AFEB35FA37604B1BCDE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7B90F5642352E684F715F49A0F670BCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		849D991C1024311497975A8CA2564985 /* UFSHessianKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B7750C8836674A8264A00F395362577 /* UFSHessianKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2E395D259BF4FE2A39F0F0D9878D6CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31D497534177675F67DC3D0525F3905B;
+			remoteInfo = UFSHessianKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1208700D6A96D6E00C3C7C725C4A80BA /* Pods-UFSHessianKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UFSHessianKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		261729D8B7FDAD661FB2F6174B72D821 /* UFSHessianKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UFSHessianKit.modulemap; sourceTree = "<group>"; };
+		271C7BA21D3E603200A9CCC8 /* CWDistantHessianObject+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CWDistantHessianObject+Private.m"; sourceTree = "<group>"; };
+		271C7BA31D3E603200A9CCC8 /* CWDistantHessianObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWDistantHessianObject.h; sourceTree = "<group>"; };
+		271C7BA41D3E603200A9CCC8 /* CWDistantHessianObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWDistantHessianObject.m; sourceTree = "<group>"; };
+		271C7BA51D3E603200A9CCC8 /* CWDistantHessianObject+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CWDistantHessianObject+Private.h"; sourceTree = "<group>"; };
+		271C7BA61D3E603200A9CCC8 /* CWHessianArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWHessianArchiver.h; sourceTree = "<group>"; };
+		271C7BA71D3E603200A9CCC8 /* CWHessianArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWHessianArchiver.m; sourceTree = "<group>"; };
+		271C7BA81D3E603200A9CCC8 /* CWHessianArchiver+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CWHessianArchiver+Private.h"; sourceTree = "<group>"; };
+		271C7BA91D3E603200A9CCC8 /* CWHessianArchiver+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CWHessianArchiver+Private.m"; sourceTree = "<group>"; };
+		271C7BAA1D3E603200A9CCC8 /* CWHessianCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWHessianCoder.h; sourceTree = "<group>"; };
+		271C7BAB1D3E603200A9CCC8 /* CWHessianCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWHessianCoder.m; sourceTree = "<group>"; };
+		271C7BAC1D3E603200A9CCC8 /* CWHessianConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWHessianConnection.h; sourceTree = "<group>"; };
+		271C7BAD1D3E603200A9CCC8 /* CWHessianConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWHessianConnection.m; sourceTree = "<group>"; };
+		271C7BAE1D3E603200A9CCC8 /* CWHessianUnarchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWHessianUnarchiver.m; sourceTree = "<group>"; };
+		271C7BAF1D3E603200A9CCC8 /* CWHessianUnarchiver+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CWHessianUnarchiver+Private.m"; sourceTree = "<group>"; };
+		271C7BB01D3E603200A9CCC8 /* CWValueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWValueObject.h; sourceTree = "<group>"; };
+		271C7BB11D3E603200A9CCC8 /* CWValueObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWValueObject.m; sourceTree = "<group>"; };
+		271C7BB21D3E603200A9CCC8 /* CWValueObject+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CWValueObject+Private.h"; sourceTree = "<group>"; };
+		271C7BB31D3E603200A9CCC8 /* CWValueObject+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CWValueObject+Private.m"; sourceTree = "<group>"; };
+		271C7BB41D3E603200A9CCC8 /* HessianKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HessianKit.h; sourceTree = "<group>"; };
+		271C7BB51D3E603200A9CCC8 /* NSData+ReadableDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ReadableDescription.h"; sourceTree = "<group>"; };
+		271C7BB61D3E603200A9CCC8 /* NSData+ReadableDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ReadableDescription.m"; sourceTree = "<group>"; };
+		32DDBE755D490F27D766527B5919CCA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4A0FC276B9B2C4F221F96CE20A9A7919 /* UFSHessianKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UFSHessianKit.xcconfig; sourceTree = "<group>"; };
+		4BA3724A4D80564CE56B8F8B09DEA0A9 /* UFSHessianKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UFSHessianKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7076B141A138AC3721ECD9D0C57641 /* Pods-UFSHessianKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UFSHessianKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		505CBAB9EEA4CC986CD5DF816AF94F84 /* Pods-UFSHessianKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UFSHessianKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		511977BF37BBAA37F7D5A302D8007B52 /* Pods-UFSHessianKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UFSHessianKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		88FD7411369BF63C3EFBAC477CF971E5 /* Pods-UFSHessianKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UFSHessianKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8CB4BBCF6AFFCB8E059966DDA46E906D /* Pods-UFSHessianKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UFSHessianKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		8D8AEAF068CC3E608A2E9CDB7DEB49BD /* Pods-UFSHessianKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UFSHessianKit_Tests.modulemap"; sourceTree = "<group>"; };
+		92FC7A58A33B1D3665DBD5669CE02FD9 /* UFSHessianKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UFSHessianKit-dummy.m"; sourceTree = "<group>"; };
+		9B7750C8836674A8264A00F395362577 /* UFSHessianKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UFSHessianKit-umbrella.h"; sourceTree = "<group>"; };
+		B6DAEC1889E5F01365FAACB8447DB880 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B713F4924968423EC94F2ACD4999D659 /* Pods-UFSHessianKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UFSHessianKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B964B0216C5A615CC80DE90C19C7DC06 /* Pods_UFSHessianKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UFSHessianKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D6FB368F90632CD4DD28A97E3EFCC51E /* Pods-UFSHessianKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UFSHessianKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F3B8C9F9AF6B4918C40F2341AE683DD9 /* UFSHessianKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UFSHessianKit-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47F483125E07C8A538C95592A98DC622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B90F5642352E684F715F49A0F670BCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26069C3C63B4B521ABCB6800BD0A5C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EBAFA116A0AFEB35FA37604B1BCDE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		017EEDAE8C8801D42B299316ADD48B80 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48E724589737970834565BD400A7A3D7 /* Pods-UFSHessianKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		223B009380478E34B29B0F2BF41D6589 /* UFSHessianKit */ = {
+			isa = PBXGroup;
+			children = (
+				5064175555BD917923D1CCE8CE6C45DD /* Classes */,
+			);
+			path = UFSHessianKit;
+			sourceTree = "<group>";
+		};
+		2EF1E5AAD6D2D40CBF21E7BD059620E4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				694743B64FB93E071EB3D8316D29080B /* UFSHessianKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		48E724589737970834565BD400A7A3D7 /* Pods-UFSHessianKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				32DDBE755D490F27D766527B5919CCA4 /* Info.plist */,
+				8D8AEAF068CC3E608A2E9CDB7DEB49BD /* Pods-UFSHessianKit_Tests.modulemap */,
+				4D7076B141A138AC3721ECD9D0C57641 /* Pods-UFSHessianKit_Tests-acknowledgements.markdown */,
+				88FD7411369BF63C3EFBAC477CF971E5 /* Pods-UFSHessianKit_Tests-acknowledgements.plist */,
+				511977BF37BBAA37F7D5A302D8007B52 /* Pods-UFSHessianKit_Tests-dummy.m */,
+				1208700D6A96D6E00C3C7C725C4A80BA /* Pods-UFSHessianKit_Tests-frameworks.sh */,
+				8CB4BBCF6AFFCB8E059966DDA46E906D /* Pods-UFSHessianKit_Tests-resources.sh */,
+				B713F4924968423EC94F2ACD4999D659 /* Pods-UFSHessianKit_Tests-umbrella.h */,
+				505CBAB9EEA4CC986CD5DF816AF94F84 /* Pods-UFSHessianKit_Tests.debug.xcconfig */,
+				D6FB368F90632CD4DD28A97E3EFCC51E /* Pods-UFSHessianKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-UFSHessianKit_Tests";
+			path = "Target Support Files/Pods-UFSHessianKit_Tests";
+			sourceTree = "<group>";
+		};
+		5064175555BD917923D1CCE8CE6C45DD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				271C7BA21D3E603200A9CCC8 /* CWDistantHessianObject+Private.m */,
+				271C7BA31D3E603200A9CCC8 /* CWDistantHessianObject.h */,
+				271C7BA41D3E603200A9CCC8 /* CWDistantHessianObject.m */,
+				271C7BA51D3E603200A9CCC8 /* CWDistantHessianObject+Private.h */,
+				271C7BA61D3E603200A9CCC8 /* CWHessianArchiver.h */,
+				271C7BA71D3E603200A9CCC8 /* CWHessianArchiver.m */,
+				271C7BA81D3E603200A9CCC8 /* CWHessianArchiver+Private.h */,
+				271C7BA91D3E603200A9CCC8 /* CWHessianArchiver+Private.m */,
+				271C7BAA1D3E603200A9CCC8 /* CWHessianCoder.h */,
+				271C7BAB1D3E603200A9CCC8 /* CWHessianCoder.m */,
+				271C7BAC1D3E603200A9CCC8 /* CWHessianConnection.h */,
+				271C7BAD1D3E603200A9CCC8 /* CWHessianConnection.m */,
+				271C7BAE1D3E603200A9CCC8 /* CWHessianUnarchiver.m */,
+				271C7BAF1D3E603200A9CCC8 /* CWHessianUnarchiver+Private.m */,
+				271C7BB01D3E603200A9CCC8 /* CWValueObject.h */,
+				271C7BB11D3E603200A9CCC8 /* CWValueObject.m */,
+				271C7BB21D3E603200A9CCC8 /* CWValueObject+Private.h */,
+				271C7BB31D3E603200A9CCC8 /* CWValueObject+Private.m */,
+				271C7BB41D3E603200A9CCC8 /* HessianKit.h */,
+				271C7BB51D3E603200A9CCC8 /* NSData+ReadableDescription.h */,
+				271C7BB61D3E603200A9CCC8 /* NSData+ReadableDescription.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		694743B64FB93E071EB3D8316D29080B /* UFSHessianKit */ = {
+			isa = PBXGroup;
+			children = (
+				818935B232B7EB7B8661A87E1C674C7D /* Support Files */,
+				223B009380478E34B29B0F2BF41D6589 /* UFSHessianKit */,
+			);
+			name = UFSHessianKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				2EF1E5AAD6D2D40CBF21E7BD059620E4 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9B19F766A7DB9F69DE2DA60EA0A3BADA /* Products */,
+				017EEDAE8C8801D42B299316ADD48B80 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		818935B232B7EB7B8661A87E1C674C7D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6DAEC1889E5F01365FAACB8447DB880 /* Info.plist */,
+				261729D8B7FDAD661FB2F6174B72D821 /* UFSHessianKit.modulemap */,
+				4A0FC276B9B2C4F221F96CE20A9A7919 /* UFSHessianKit.xcconfig */,
+				92FC7A58A33B1D3665DBD5669CE02FD9 /* UFSHessianKit-dummy.m */,
+				F3B8C9F9AF6B4918C40F2341AE683DD9 /* UFSHessianKit-prefix.pch */,
+				9B7750C8836674A8264A00F395362577 /* UFSHessianKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UFSHessianKit";
+			sourceTree = "<group>";
+		};
+		9B19F766A7DB9F69DE2DA60EA0A3BADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B964B0216C5A615CC80DE90C19C7DC06 /* Pods_UFSHessianKit_Tests.framework */,
+				4BA3724A4D80564CE56B8F8B09DEA0A9 /* UFSHessianKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		81107321A37B6F97CC647A3B34A77549 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271C7BBA1D3E603200A9CCC8 /* CWDistantHessianObject+Private.h in Headers */,
+				271C7BC71D3E603200A9CCC8 /* CWValueObject+Private.h in Headers */,
+				323943D05852655665C7BA371CA28111 /* Pods-UFSHessianKit_Tests-umbrella.h in Headers */,
+				271C7BBB1D3E603200A9CCC8 /* CWHessianArchiver.h in Headers */,
+				271C7BCA1D3E603200A9CCC8 /* NSData+ReadableDescription.h in Headers */,
+				271C7BC51D3E603200A9CCC8 /* CWValueObject.h in Headers */,
+				271C7BBD1D3E603200A9CCC8 /* CWHessianArchiver+Private.h in Headers */,
+				271C7BC11D3E603200A9CCC8 /* CWHessianConnection.h in Headers */,
+				271C7BBF1D3E603200A9CCC8 /* CWHessianCoder.h in Headers */,
+				271C7BB81D3E603200A9CCC8 /* CWDistantHessianObject.h in Headers */,
+				271C7BC91D3E603200A9CCC8 /* HessianKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FFDFDC1FB7A75BE9E70EA2B758BB715 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849D991C1024311497975A8CA2564985 /* UFSHessianKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		31D497534177675F67DC3D0525F3905B /* UFSHessianKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A364AF67E8B2A6CEE6ED6426D034AA /* Build configuration list for PBXNativeTarget "UFSHessianKit" */;
+			buildPhases = (
+				255FE8E40177DFBEBDB8A097EA71786E /* Sources */,
+				A26069C3C63B4B521ABCB6800BD0A5C9 /* Frameworks */,
+				8FFDFDC1FB7A75BE9E70EA2B758BB715 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UFSHessianKit;
+			productName = UFSHessianKit;
+			productReference = 4BA3724A4D80564CE56B8F8B09DEA0A9 /* UFSHessianKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3518B5FC3FAA67767F97A9454BA55A25 /* Pods-UFSHessianKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49455348739C5C4E1B6AEBD3FC2CC940 /* Build configuration list for PBXNativeTarget "Pods-UFSHessianKit_Tests" */;
+			buildPhases = (
+				894128832DE1FD9B1F3DD12CDF6A5972 /* Sources */,
+				47F483125E07C8A538C95592A98DC622 /* Frameworks */,
+				81107321A37B6F97CC647A3B34A77549 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA3388E2628967EC4AD41469DF2369A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-UFSHessianKit_Tests";
+			productName = "Pods-UFSHessianKit_Tests";
+			productReference = B964B0216C5A615CC80DE90C19C7DC06 /* Pods_UFSHessianKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9B19F766A7DB9F69DE2DA60EA0A3BADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3518B5FC3FAA67767F97A9454BA55A25 /* Pods-UFSHessianKit_Tests */,
+				31D497534177675F67DC3D0525F3905B /* UFSHessianKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		255FE8E40177DFBEBDB8A097EA71786E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CB8D326EE95125966ED0DC1256794C /* UFSHessianKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894128832DE1FD9B1F3DD12CDF6A5972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271C7BC21D3E603200A9CCC8 /* CWHessianConnection.m in Sources */,
+				271C7BB71D3E603200A9CCC8 /* CWDistantHessianObject+Private.m in Sources */,
+				271C7BB91D3E603200A9CCC8 /* CWDistantHessianObject.m in Sources */,
+				271C7BC41D3E603200A9CCC8 /* CWHessianUnarchiver+Private.m in Sources */,
+				20EC256EEC6584896E15B9F3D07758BB /* Pods-UFSHessianKit_Tests-dummy.m in Sources */,
+				271C7BCB1D3E603200A9CCC8 /* NSData+ReadableDescription.m in Sources */,
+				271C7BC31D3E603200A9CCC8 /* CWHessianUnarchiver.m in Sources */,
+				271C7BC81D3E603200A9CCC8 /* CWValueObject+Private.m in Sources */,
+				271C7BBE1D3E603200A9CCC8 /* CWHessianArchiver+Private.m in Sources */,
+				271C7BBC1D3E603200A9CCC8 /* CWHessianArchiver.m in Sources */,
+				271C7BC61D3E603200A9CCC8 /* CWValueObject.m in Sources */,
+				271C7BC01D3E603200A9CCC8 /* CWHessianCoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA3388E2628967EC4AD41469DF2369A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UFSHessianKit;
+			target = 31D497534177675F67DC3D0525F3905B /* UFSHessianKit */;
+			targetProxy = D2E395D259BF4FE2A39F0F0D9878D6CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9043253D683E67A69509AED18FA8FBBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A0FC276B9B2C4F221F96CE20A9A7919 /* UFSHessianKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UFSHessianKit/UFSHessianKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UFSHessianKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UFSHessianKit/UFSHessianKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UFSHessianKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ADDFCD3AE3C2A60FF6C0DB33470A45DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6FB368F90632CD4DD28A97E3EFCC51E /* Pods-UFSHessianKit_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UFSHessianKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UFSHessianKit_Tests/Pods-UFSHessianKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UFSHessianKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA7720DBE845FACD8241BD4E481DF572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 505CBAB9EEA4CC986CD5DF816AF94F84 /* Pods-UFSHessianKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UFSHessianKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UFSHessianKit_Tests/Pods-UFSHessianKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_UFSHessianKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F74D19BA92ECE214EFA1850EADEB3016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A0FC276B9B2C4F221F96CE20A9A7919 /* UFSHessianKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UFSHessianKit/UFSHessianKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UFSHessianKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UFSHessianKit/UFSHessianKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UFSHessianKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49455348739C5C4E1B6AEBD3FC2CC940 /* Build configuration list for PBXNativeTarget "Pods-UFSHessianKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7720DBE845FACD8241BD4E481DF572 /* Debug */,
+				ADDFCD3AE3C2A60FF6C0DB33470A45DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96A364AF67E8B2A6CEE6ED6426D034AA /* Build configuration list for PBXNativeTarget "UFSHessianKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9043253D683E67A69509AED18FA8FBBF /* Debug */,
+				F74D19BA92ECE214EFA1850EADEB3016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

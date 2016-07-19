@@ -1,0 +1,14 @@
+PODS:
+  - UFSHessianKit (0.1.0)
+
+DEPENDENCIES:
+  - UFSHessianKit (from `../`)
+
+EXTERNAL SOURCES:
+  UFSHessianKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UFSHessianKit: 27577068558ea4b72737ab13af2c219a62bb35d1
+
+COCOAPODS: 0.39.0

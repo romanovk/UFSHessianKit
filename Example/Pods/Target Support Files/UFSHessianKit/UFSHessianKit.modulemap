@@ -1,0 +1,6 @@
+framework module UFSHessianKit {
+  umbrella header "UFSHessianKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

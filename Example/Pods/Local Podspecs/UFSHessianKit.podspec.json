@@ -1,0 +1,22 @@
+{
+  "name": "UFSHessianKit",
+  "version": "0.1.0",
+  "summary": "A short description of UFSHessianKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/UFSHessianKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Romanov Konstantin": "kromanov@ufs-online.ru"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/UFSHessianKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UFSHessianKit/Classes/**/*"
+}

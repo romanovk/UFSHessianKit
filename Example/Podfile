@@ -1,0 +1,6 @@
+use_frameworks!
+target 'UFSHessianKit_Tests' do
+  pod 'UFSHessianKit', :path => '../'
+  
+  
+end
